@@ -241,4 +241,4 @@ export default {
 
 
 
-</sty
+</style>

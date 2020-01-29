@@ -215,13 +215,12 @@ export default {
 
                    el.querySelector('.block-overlay').addEventListener('click', () => {
                      if(el.classList.contains('full')){
-                         console.log('..being playing');
                             el.classList.remove('full')
                             el.querySelector('video').pause()
                             TweenMax.to('.notice', 1, {marginTop: '-100%'})
                          
                      }else{
-                          console.log('..just started')
+                         
                            el.classList.add('full')
                             el.querySelector('video').play()
                             TweenMax.to('.notice', 1, {marginTop: 0})
